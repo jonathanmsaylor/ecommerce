@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.css']
 })
-export class HomePageComponent implements OnInit {
+export class HomePageComponent {
 
-  constructor() { }
-
-  ngOnInit() {
+  title = 'public';
+  isIn = false;   // store state
+  toggleState() { // click handler
+    let bool = this.isIn;
+    this.isIn = bool === false ? true : false;
   }
 
 }
