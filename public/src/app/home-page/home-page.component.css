@@ -10,3 +10,89 @@
     margin: 0;
     font-family: bauhus;
 }
+
+@media only screen and (min-width: 1px) {
+    .row .col-6  {
+        padding: 0;
+        display: none;
+    }
+    .row .col-12 {
+        display: initial;
+    }
+    .col-6 .row {
+        margin: 0;
+        text-align: center;
+    }
+    .col-4 {
+        border-bottom: none;
+        z-index: 1;
+        height: 87px;
+        padding: 30px;
+        outline: none;
+    }
+    h1 {
+        padding-top: 8px;
+    }
+    .card-body {
+        margin-top: 30px;
+        cursor: default;
+    }
+    .leftbox {
+        background-color: rgb(25, 93, 110);
+        height: 275px;
+        width: 172px;
+        padding: 0;
+    }
+    .rightbox {
+        background-color: rgb(68, 163, 187);
+        height: 275px;
+        width: 520px;
+        padding: 0;
+    }
+    .navbar {
+        padding-left: 108.5px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .row .col-6 {
+        padding: 0;
+        display: initial;
+    }
+    .row .col-12 {
+        display: none;
+    }
+    .col-6 .row {
+        margin: 0;
+        text-align: center;
+    }
+    .navbar {
+        padding-left: 50px;
+    }
+    .col-4 {
+        border-bottom: none;
+        z-index: 1;
+        height: 87px;
+        padding: 30px;
+        outline: none;
+    }
+    h1 {
+        padding-top: 8px;
+    }
+    .card-body {
+        margin-top: 30px;
+        cursor: default;
+    }
+    .leftbox {
+        background-color: rgb(25, 93, 110);
+        height: 275px;
+        width: 172px;
+        padding: 0;
+    }
+    .rightbox {
+        background-color: rgb(68, 163, 187);
+        height: 275px;
+        width: 520px;
+        padding: 0;
+    }
+}

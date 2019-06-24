@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Stray's New Homes</title>
+    <title>Seighler Abstract Art</title>
     <base href="/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,41 +23,56 @@
 </head>
 
 <body>
-
     <div class="row">
-        <div class="col-6" style="padding: 0;">
-            <nav class="navbar navbar-expand-lg navbar-light " style="height: 80px;">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <div class="col-6">  <!-- desktop header -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="height: 80px;">
+                <a class="navbar-brand" href="#">Seighler Abstract Art</a>
             </nav>
         </div>
-        <div class="col-6" style="padding: 0; border: 1px solid black; height: 88px;">
-            <div class="row" style="margin: 0;  text-align: center;">
-                <div class="col-4" style="border: 1px solid rgb(0, 0, 0); z-index: 1; height: 87px; padding: 30px;">
-                    <button data-toggle="collapse" data-target="#collapseone">Collapsible</button>
+        <div class="col-12">  <!-- mobile header -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="height: 80px;">
+                <a class="navbar-brand" href="#">Seighler Abstract Art</a>
+            </nav>
+        </div>
+        <div class="col-6" style="height: 88px;">
+            <div class="row">
+                <!-- add webkit transition to dropdown cards -->
+                <button class="col-4" data-toggle="collapse" data-target="#collapseone" style="background-color: #f9f9f9;">
+                    <h1>Art</h1>
                     <div id="collapseone" class="collapse">
-                        <h1>placeholder</h1>
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit ad squid. Ni helvetica, craft b wes anderson cred
+                            nesciunt sapiente ea proident.
+                        </div>
                     </div>
-                </div>
-                <div class="col-4" style="border: 1px solid rgb(0, 0, 0); z-index: 1; height: 87px; padding: 30px;"> <button data-toggle="collapse"
-                        data-target="#collapsetwo">Collapsible</button>
+                </button>
+                <button class="col-4" data-toggle="collapse" data-target="#collapsetwo" style="background-color:#f4f4f4;">
+                    <h1>About</h1>
                     <div id="collapsetwo" class="collapse">
-                        <h1>placeholder</h1>
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit ad squid. Ni helvetica, craft b wes anderson cred
+                            nesciunt sapiente ea proident.
+                        </div>
                     </div>
-                </div>
-                <div class="col-4" style="border: 1px solid rgb(0, 0, 0); z-index: 1; height: 87px; padding: 30px;">
-                    <button data-toggle="collapse" data-target="#collapsethree">Collapsible</button>
+                </button>
+                <button class="col-4" data-toggle="collapse" data-target="#collapsethree" style="background-color: #ededed;">
+                    <h1>Checkout</h1>
                     <div id="collapsethree" class="collapse">
-                        <h1>placeholder</h1>
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit ad squid. Ni helvetica, craft b wes anderson cred
+                            nesciunt sapiente ea proident.
+                        </div>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row" style="text-align: center;">
-            <div class="col" style="background-color: blue; height: 275px; width: 488px; padding: 0;">
+    <div class="container">
+        <div class="row">
+            <!-- fix margin right issue -->
+            <div class="leftbox">
             </div>
-            <div class="col" style="background-color: grey; height: 275px; width: 488px; padding: 0;">
+            <div class="rightbox">
             </div>
         </div>
     </div>

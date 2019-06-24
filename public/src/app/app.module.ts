@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { RedWineComponent } from './red-wine/red-wine.component';
+import { CheckoutPageComponent } from './checkout-page/checkout-page.component';
+import { ArtPageComponent } from './art-page/art-page.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    RedWineComponent
+    CheckoutPageComponent,
+    ArtPageComponent
   ],
   imports: [
     BrowserModule,
